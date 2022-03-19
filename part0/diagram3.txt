@@ -1,0 +1,5 @@
+Creating a note(spa)
+Clicking submit
+browser ----> server   HTTP POST request to create a new note with fields content and value (JSON header)
+Event handler creates a new note, pushes it into the list of notes and sends it to the server as JSON data
+server  ----> browser  Displays new note
