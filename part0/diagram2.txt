@@ -1,0 +1,10 @@
+On load
+browser ----> server   HTTP GET request to get spa page
+server  ----> browser (spa.html) //returns HTML code
+browser ----> server   HTTP GET request to get styling doc
+server  ----> browser (main.css) // returns CSS code
+browser ----> server   HTTP GET request to get javascript doc
+server  ----> browser (main.js) // returns JavaScript code
+browser ----> server   (HTTP GET) executes javascript code and requests JSON data
+server  ----> browser (data.json) // returns JSON data
+
